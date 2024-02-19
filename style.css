@@ -1,0 +1,162 @@
+header .logo img{
+    width: 84px;
+    height: 40px;
+
+}
+body{
+    /* width: 1920px; */
+    font-family: "Work Sans", sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.container{
+    width: 1440px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+header .logo span{
+    font-size: 45px;
+    font-weight: 700;
+   
+    color: #0B0223;
+    margin-left:2px;
+}
+.logo-title{
+    color: #FF42A5;
+}
+.menu ul{
+    display: flex;
+    gap: 15px;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 18;
+    font-weight: 500;
+    color: #473685;
+}
+.menu img{
+    width: 25px;
+    height: 20px;
+    
+}
+.menu .youtube-logo{
+    color: #F61C0D;
+    
+}
+.menu .tiktok-logo{
+    color: #000000;
+    
+}
+/* =================. first section ====> */
+.goat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .back{
+    background-image: url('images/Group1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.banner-title h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0B0223;
+    margin: 0;
+}
+.banner-title h1{
+    font-size: 95px;
+    font-weight: 900;
+    color: #F948B2;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.banner-info{
+    margin-bottom: 5px;
+}
+.banner-info .icon{
+    width: 15px;
+    height: 14px;
+    color: #F948B2;
+}
+.banner-info .icon-title{
+    font-size: 18px;
+    font-weight: 500;
+    color: #534C64;
+    margin-left: 10px;
+
+}
+button{
+    border-style: none;
+    color: #FFF;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 25px 10px 25px;
+    margin-top: 20px;
+
+}
+.sign{
+    background-color: #db158c; 
+    margin-right: 10px;
+}
+.go{
+     background-color: #4EC5F7;  
+}
+.banner{
+    margin-left: 340px;
+}
+.banner img{
+    
+    width: 719px;
+    height: 681px;
+}
+/* ====>second section====> */
+.gamer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.gamer .left img{
+    width: 868px;
+    height: 489px;
+}
+.gamer .right{
+    text-align: right;
+    margin-right: 30px;
+}
+.gamer .right h1{
+    font-size: 48px;
+    font-size: 700;
+    color: #F948B2;
+    margin: 0;
+}
+.gamer .right p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.gamer .right .we{
+    font-size: 24px;
+    font-weight: 500;
+}
+.gamer .right h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+.know{
+    background-color: #db158c; 
+    margin-right: 10px;
+}
