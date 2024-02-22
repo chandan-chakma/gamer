@@ -104,7 +104,6 @@ button{
     font-weight: 500;
     padding: 10px 25px 10px 25px;
     margin-top: 20px;
-
 }
 .sign{
     background-color: #db158c; 
@@ -221,3 +220,147 @@ button{
 .video:hover> .play{
     display: block;
 }
+/* ====>fourth section=====>  */
+.install{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:60px 0px 60px 0px;
+}
+.install .info{
+    margin-right: 230px ;
+}
+.install h1{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: right;
+    margin: 0;
+}
+.install h1 span{
+    color: #F948B2;
+}
+.install p{
+    font-size: 18px;
+    color: #706390;
+    text-align: right;
+}
+.position{
+    position:relative;
+    /* width: 780px;
+    height: 725px; */
+   
+}
+.position .big img{
+    width: 634px;
+    height: 650px;
+    
+}
+.position .small img{
+    width: 318px;
+    height: 365px;
+    position: absolute;
+    top: 363px;
+    left: -135px;
+}
+/* ===============> fifth section====> */
+.games{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0 100px 0;
+}
+/* install .info{
+    margin-right: 230px ;
+} */
+.games .info{
+    margin-left: 270px;
+}
+.games h1{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+    margin: 0;
+}
+.games h1 span{
+    color: #F948B2;
+}
+.games p{
+    font-size: 18px;
+    color: #706390;
+    text-align: left;
+}
+.move{
+    position:relative;
+}
+.move .fire img{
+    width: 634px;
+    height: 650px;
+    
+}
+.move .cat img{
+    width: 318px;
+    height: 365px;
+    position: absolute;
+    top: 405px;
+    left:475px;
+}
+/* =========>sixth sectio=========>  */
+.careers{
+    background-color: #F948B2;
+    margin-top: 100px;
+    padding: 0 0 0 150px;
+}
+.career {
+    display: flex;
+    align-items: center;
+}
+.career h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFF;
+    margin: 0;
+}
+.career p{
+     color: #FFF;
+     font-size: 18px;
+     font-weight: 300;
+}
+.job{
+    display: flex;
+    justify-content: space-between;
+}
+.career .seeall{
+    color: #F948B2;
+    background-color: #FFF; 
+    margin-right: 10px;
+}
+.career img{
+    margin-left: 50px;
+}
+/* ==============>seventh section=================> */
+.gamestype{
+    margin-top: 100px;
+}
+.types{
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.type{
+    display: flex;
+
+}
+.type img{
+    width: 60px;
+    height: 60px;
+}
+.type h1{
+    font: 20px;
+    font-weight: 600;
+    color: #0B0223;
+    margin-left: 10px
+}
+
